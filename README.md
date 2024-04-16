@@ -9,7 +9,13 @@ The aerostructures package was initially developed by Joan Mas Colomer during a 
 To install the aerostructures package, you can clone the aerostructures directory using [git](https://git-scm.com/)
 
 ```bash
-git clone https://github.com/mid2SUPAERO/aerostructures.git
+git clone https://github.com/sanxung/aerostructures.git
+cd aerostructures
+
+conda create -n aerostructures_py38 python=3.8
+conda activate aerostructures_py38
+
+pip install . -i http://mirrors.aliyun.com/pypi/simple/
 ```
 
 and install it using [pip](https://pip.pypa.io/en/stable/) by specifying the path to the cloned repository.
